@@ -1,24 +1,17 @@
 import React from 'react';
-import logo from './logo.svg';
+import {Route, Switch} from 'react-router-dom';
 import './App.css';
-
-function App() {
+import Nbar from './components/navBar/navBar'
+import Ttt from './components/ticTacToe/tic-tac-toe'
+function App(props) {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Nbar />
+      <Switch>
+        <Route path="/tic-tac-toe" component={Ttt} />
+      </Switch>
+      <footer className="btm">
+      </footer>
     </div>
   );
 }

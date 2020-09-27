@@ -1,0 +1,127 @@
+.ttt {
+   display: flex;
+   align-content: center;
+   justify-content: center;
+   margin-top: 0px;
+}
+
+/* top/bottom center */
+.ttt1 {
+   border-left: solid;
+   border-right: solid;
+   border-width: 2vw;
+}
+
+/* center */
+.ttt2 {
+   border: solid;
+   border-width: 2vw;
+}
+
+/* sides */
+.ttt3 {
+   border-top: solid;
+   border-bottom: solid;
+   border-width: 2vw;
+}
+.tttF{
+   font-size:5.8rem;
+   padding:0px;
+   margin:0px;
+}
+.rsBtn {
+   position: absolute;
+   left:0.5vw;
+   top:10.5vh;
+   border-radius: 50%;
+   border:none;
+   width: 20vw;
+   height: 10vh;
+   
+}
+/* !For Tablets */
+@media only screen and (min-width: 600px){
+   td{
+      height:18vh;
+      width:18vw;
+      padding:0px;
+      margin:0px;
+   }
+   .ttt {
+      display: flex;
+      align-content: center;
+      justify-content: center;
+      margin-top: -15vh;
+   }
+   
+   /* top/bottom center */
+   .ttt1 {
+      border-left: solid;
+      border-right: solid;
+      border-width: 1vw;
+   }
+   
+   /* center */
+   .ttt2 {
+      border: solid;
+      border-width: 1vw;
+   }
+   
+   /* sides */
+   .ttt3 {
+      border-top: solid;
+      border-bottom: solid;
+      border-width: 1vw;
+   }
+   .tttF{
+      font-size:3.45rem;
+      padding:0px;
+      margin:0px;
+   }
+   .rsBtn {
+      margin-bottom:-10vh;
+      border-radius: 50%;
+      border:none;
+      width: 15vw;
+      height: 15vh;
+   }
+}
+/* !For Desktop  */
+@media only screen and (min-width: 768px){
+   .ttt {
+      display: flex;
+      align-content: center;
+      justify-content: center;
+      margin-top: 0px;
+   }
+   
+   /* top/bottom center */
+   .ttt1 {
+      border-left: solid;
+      border-right: solid;
+      border-width: 2vw;
+   }
+   
+   /* center */
+   .ttt2 {
+      border: solid;
+      border-width: 2vw;
+   }
+   
+   /* sides */
+   .ttt3 {
+      border-top: solid;
+      border-bottom: solid;
+      border-width: 2vw;
+   }
+   .tttF{
+      font-size:5.8rem;
+      padding:0px;
+      margin:0px;
+   }
+   .rsBtn {
+      border-radius: 25%;
+      width: 20vw;
+      height: 10vh;
+   }
+}
